@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { ProwebAccodionCeldaComponent } from './proweb-accodion-celda/proweb-accodion-celda.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ProwebAccodionCeldaComponent
   ],
   imports: [
     BrowserModule
