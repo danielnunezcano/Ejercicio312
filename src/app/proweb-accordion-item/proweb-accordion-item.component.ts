@@ -1,11 +1,11 @@
 import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
-  selector: 'app-proweb-accodion-celda',
-  templateUrl: './proweb-accodion-celda.component.html',
-  styleUrls: ['./proweb-accodion-celda.component.css']
+  selector: 'app-proweb-accordion-item',
+  templateUrl: './proweb-accordion-item.component.html',
+  styleUrls: ['./proweb-accordion-item.component.css']
 })
-export class ProwebAccodionCeldaComponent implements OnInit {
+export class ProwebAccordionItemComponent implements OnInit {
 
   @Input('label') label;
   @Input() contenido;
